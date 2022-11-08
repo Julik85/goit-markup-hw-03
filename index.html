@@ -13,7 +13,10 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -60,27 +63,27 @@
         <div class="container">
           <h2 class="hidden">Особливості</h2>
           <ul class="features list">
-            <li>
+            <li class="features-item">
               <h3 class="Features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="Features-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="Features-title">ПЛАНУВАННЯ</h3>
               <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="Features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -124,8 +127,10 @@
                 alt="Ігор Дем'яненко Product Designer"
                 width="270"
               />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p lang="en" class="team-position">Product Designer</p>
+              <div class="team-item-container">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -133,8 +138,10 @@
                 alt="Ольга Рєпіна Frontend Developer"
                 width="270"
               />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p lang="en" class="team-position">Frontend Developer</p>
+              <div class="team-item-container">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p lang="en" class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -142,8 +149,10 @@
                 alt="Микола Тарасов Marketing"
                 width="270"
               />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p lang="en" class="team-position">Marketing</p>
+              <div class="team-item-container">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p lang="en" class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -151,8 +160,10 @@
                 alt="Михайло Єрмаков UI Designer"
                 width="270"
               />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p lang="en" class="team-position">UI Designer</p>
+              <div class="team-item">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p lang="en" class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -164,9 +175,9 @@
           ><span class="web">Web</span>Studio</a
         >
         <address class="footer-address">
-          <ul class="contacts list">
+          <ul class="contacts list footer-contacts">
             <li class="contacts-item">
-              <a href="#" class="adress-link"
+              <a href="#" class="adress-link link"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
