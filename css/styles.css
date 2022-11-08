@@ -431,10 +431,12 @@ img {
 }
 
 .examples-link {
+  font-family: Roboto, sans-serif;
   text-decoration: none;
 }
 
 .examples-title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
