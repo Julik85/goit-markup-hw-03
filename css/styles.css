@@ -34,6 +34,7 @@ ul {
 }
 
 button {
+  display: inline-block;
   cursor: pointer;
 }
 
@@ -116,6 +117,11 @@ address {
 .link:focus {
   color: var(--focus-color);
 }
+.site-nav-link{
+  display: inline-block;
+  padding: 8px 8px;
+}
+
 .site-contact {
   font-weight: 500;
   font-size: 14px;
@@ -184,11 +190,16 @@ address {
 /*----------- Features----------- */
 .section {
   /* margin-bottom: 94px; */
-  padding-top: 94px;
+  
 }
 /* .section:last-child {
   margin-bottom: 0;
 } */
+
+.features-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .hidden {
   color: rgba(0, 0, 0, 0);
@@ -230,6 +241,8 @@ address {
 /*------------- work------------- */
 .section-work {
   text-align: center;
+  padding-bottom: 94px;
+  
 }
 
 .section-title {
@@ -255,7 +268,7 @@ address {
 .section-team {
   text-align: center;
   /* margin-bottom: 50px; */
-  padding-top: 94px;
+  
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
@@ -340,9 +353,9 @@ row-gap: 90px;
   color: var(--footer-adress-color);
 }
 
-.contacts-item {
+/* .contacts-item {
   margin-bottom: 9px;
-}
+} */
 
 .contacts:last-child {
   margin-bottom: 0;
